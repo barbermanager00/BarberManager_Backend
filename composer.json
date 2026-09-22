@@ -1,0 +1,6 @@
+{
+    "require": {
+        "illuminate/database": "^12.58",
+        "phpmailer/phpmailer": "^7.1"
+    }
+}

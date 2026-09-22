@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /Barber_Manager/
+    
+    # Permitir archivos y directorios reales
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Reescribir todo a index.php
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>

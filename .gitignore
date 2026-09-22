@@ -1,0 +1,7 @@
+vendor/
+.DS_Store
+.env
+.env.*
+composer.lock
+coverage/
+node_modules/
